@@ -1,0 +1,24 @@
+{
+    "name": "vince/roman",
+    "description": "Roman numerals converter",
+    "authors": [
+        {
+            "name": "Robbuss",
+            "email": "vincentvanmontfoort@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}

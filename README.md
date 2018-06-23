@@ -1,45 +1,47 @@
-# Project Title
+# Roman Numerals
 
-One Paragraph of project description goes here
+Convert a number to Roman Numerals. Pretty useless right?
 
-## Getting Started
+## Demo
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+[demo](https://forgefactory.nl/roman)
 
-### Prerequisites
+### Romans
 
-What things you need to install the software and how to install them
+These are the components used.
 
 ```
-Give examples
+1 = I
+2 = II
+3 = II
+4 = IV
+5 = V
+6 = VI
+9 = IX
+10 = X
+15 = XV 
+40 = XL
+41 = XLI
+44 = XLIV
+50 = L
+100 = C
+500 = D
+900 = CM
+1000 = M
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Use composer to install depencies
 
 ```
-Give the example
+composer install
 ```
 
-And repeat
+Use phpspec to run tests. 
 
 ```
-until finished
+bin/phpspec run
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Succes en geluk
